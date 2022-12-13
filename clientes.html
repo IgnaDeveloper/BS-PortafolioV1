@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="autor" content="IgnaDeveloper" />
+    <meta
+      name="description"
+      content="Portafolio desarrollo web IgnaDeveloper"
+    />
+    <meta
+      name="keyboards"
+      content="HTML, CSS, JavaScript, React, IgnaDeveloper, Portafolio"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>IgnaDeveloper</title>
+    <!-- ICON -->
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- ICONS BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS PERSONAL -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="/img/bad-dog-studio-logo.png"
+            width="250"
+            height="80"
+            alt="Logo de Estudio Proyect"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link"  href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Sitios
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="sitios.html#ultimos-proyectos"
+                    >Ultimos proyectos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sitios.html#single-page">
+                    Sitio <i>Single Page</i></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sitios.html#multi-page"
+                    >Sitio <i>Multi Page</i></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comencemos.html">Comencemos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- MAIN -->
+    <main class="pt-3">
+      <section id="clientes">
+        <div class="text-center">
+          <h1>Clientes & Colaboraciones</h1>
+          <p class="fs-5">
+            Desarrollo sitios web de una sóla y de múltiples páginas.
+          </p>
+        </div>
+        <div class="container">
+          <section class="row g-0">
+            <article class="col-12">
+              <div class="card bg-dark text-white border-0 rounded-0">
+                <img
+                  class="card-img"
+                  src="img/clients-1.jpg"
+                  alt="Andy Pandharikar"
+                />
+                <div
+                  class="card-img-overlay bg-black bg-opacity-50 d-flex flex-column justify-content-sm-center d-flex flex-column justify-content-sm-center"
+                >
+                  <h5 class="card-title fs-4">Andy Pandharikar</h5>
+                  <p class="card-text">CEO/Co-Fundador, Commerce AI</p>
+                  <a
+                    href="#"
+                    data-bs-target="#cliente-1"
+                    data-bs-toggle="modal"
+                    class="fw-bold fs-4 link-light"
+                    >Ver proyecto</a
+                  >
+                  <p class="card-text pt-3 d-none d-lg-block">
+                    No estabamos satisfechos con ninguna de nuestras opciones
+                    anteriores. <br />
+                    Pero IgnaDeveloper tuvo lo que necesitabamos.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card bg-dark text-white border-0 rounded-0">
+                <img
+                  class="card-img"
+                  src="img/clients-2.jpg"
+                  alt="Andy Pandharikar"
+                />
+                <div
+                  class="card-img-overlay bg-black bg-opacity-75 d-flex flex-column justify-content-sm-center"
+                >
+                  <h5 class="card-title fs-4">Zeb Couch</h5>
+                  <p class="card-text">Dueño de Zeb Couch</p>
+                  <a
+                    href="#"
+                    data-bs-target="#cliente-2"
+                    data-bs-toggle="modal"
+                    class="fw-bold fs-4 link-light"
+                    >Ver proyecto</a
+                  >
+                  <p class="card-text pt-3 d-none d-lg-block">
+                    He trabajado con IgnaDeveloper en varios proyectos ahora y
+                    seguiré trabajando siempre que pueda.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card bg-dark text-white border-0 rounded-0">
+                <img
+                  class="card-img"
+                  src="img/clients-3.jpg"
+                  alt="Andy Pandharikar"
+                />
+                <div
+                  class="card-img-overlay bg-black bg-opacity-75 d-flex flex-column justify-content-sm-center"
+                >
+                  <h5 class="card-title fs-4">Lori Knisely</h5>
+                  <p class="card-text">Co-dueña & Diseñadora de Hey Textile</p>
+                  <a
+                    href="#"
+                    data-bs-target="#cliente-3"
+                    data-bs-toggle="modal"
+                    class="fw-bold fs-4 link-light"
+                    >Ver proyecto</a
+                  >
+                  <p class="card-text pt-3 d-none d-lg-block">
+                    ¡IgnaDeveloper, siempre lo consigue!
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card bg-dark text-white border-0 rounded-0">
+                <img
+                  class="card-img"
+                  src="img/clients-7.jpg"
+                  alt="Andy Pandharikar"
+                />
+                <div
+                  class="card-img-overlay bg-black bg-opacity-75 d-flex flex-column justify-content-sm-center"
+                >
+                  <h5 class="card-title fs-4">Tom Allan</h5>
+                  <p class="card-text">
+                    Co-fundador & Director, Basis Networks
+                  </p>
+                  <a
+                    href="#"
+                    data-bs-target="#cliente-4"
+                    data-bs-toggle="modal"
+                    class="fw-bold fs-4 link-light"
+                    >Ver proyecto</a
+                  >
+                  <p class="card-text pt-3 d-none d-lg-block">
+                    Definitivamente continuaremos usando los servicios de
+                    IgnaDeveloper para nuestros proyectos futuros.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card bg-dark text-white border-0 rounded-0">
+                <img
+                  class="card-img"
+                  src="img/clients-4.jpg"
+                  alt="Andy Pandharikar"
+                />
+                <div
+                  class="card-img-overlay bg-black bg-opacity-75 d-flex flex-column justify-content-sm-center"
+                >
+                  <h5 class="card-title fs-4">Jin Choeh</h5>
+                  <p class="card-text">Co-founder & CEO Swingvy</p>
+                  <a
+                    href="#"
+                    data-bs-target="#cliente-5"
+                    data-bs-toggle="modal"
+                    class="fw-bold fs-4 link-light"
+                    >Ver proyecto</a
+                  >
+                  <p class="card-text pt-3 d-none d-lg-block">
+                    IgnaDeveloper estaba más allá de nuestras expectativas.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card bg-dark text-white border-0 rounded-0">
+                <img
+                  class="card-img"
+                  src="img/clients-5.jpg"
+                  alt="Andy Pandharikar"
+                />
+                <div
+                  class="card-img-overlay bg-black bg-opacity-75 d-flex flex-column justify-content-sm-center"
+                >
+                  <h5 class="card-title fs-4">Jennifer Blair</h5>
+                  <p class="card-text">CEO Lash Spa Studio</p>
+                  <a
+                    href="#"
+                    data-bs-target="#cliente-6"
+                    data-bs-toggle="modal"
+                    class="fw-bold fs-4 link-light"
+                    >Ver proyecto</a
+                  >
+                  <p class="card-text pt-3 d-none d-lg-block">
+                    Hemos encontrado un socio perfecto para nuestras necesidades
+                    de diseño y marca.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12 col-sm-6 col-lg-4">
+              <div class="card bg-dark text-white border-0 rounded-0">
+                <img
+                  class="card-img"
+                  src="img/clients-6.jpg"
+                  alt="Andy Pandharikar"
+                />
+                <div
+                  class="card-img-overlay bg-black bg-opacity-75 d-flex flex-column justify-content-sm-center"
+                >
+                  <h5 class="card-title fs-4">Sietse Kingma</h5>
+                  <p class="card-text">Co-fundador Bambuu BV</p>
+                  <a
+                    href="#"
+                    data-bs-target="#cliente-7"
+                    data-bs-toggle="modal"
+                    class="fw-bold fs-4 link-light"
+                    >Ver proyecto</a
+                  >
+                  <p class="card-text pt-3 d-none d-lg-block">
+                    IgnaDeveloper crea sitios impresionantes, estrategias
+                    increíbles y mucho más.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12">
+              <div class="card bg-dark text-white border-0 rounded-0">
+                <img
+                  class="card-img"
+                  src="img/clients-8.jpg"
+                  alt="Andy Pandharikar"
+                />
+                <div
+                  class="card-img-overlay bg-black bg-opacity-50 d-flex flex-column justify-content-sm-center"
+                >
+                  <h5 class="card-title fs-4">Sergie Magdalin</h5>
+                  <p class="card-text">Co-fundador de Webflow</p>
+                  <a
+                    href="#"
+                    data-bs-target="#cliente-8"
+                    data-bs-toggle="modal"
+                    class="fw-bold fs-4 link-light"
+                    >Ver proyecto</a
+                  >
+                  <p class="card-text pt-3 d-none d-lg-block">
+                    IgnaDeveloper es una de los mejores personas con las que he
+                    trabajado.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </section>
+
+          <!-- Modal 1 -->
+          <div
+            class="modal fade"
+            id="cliente-1"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title fs-5" id="exampleModalLabel">
+                    <a href="https://www.commerce.ai/" target="_blank"
+                      >Commerce AI</a
+                    >
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Posicioné una nueva marca comercial (en línea) y diseñé un
+                    sitio web adaptado y hecho a medida.
+                  </p>
+                  <img
+                    src="img/work-layout-1.jpg"
+                    alt="Commerce AI"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL 2 -->
+          <div
+            class="modal fade"
+            id="cliente-2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title fs-5" id="exampleModalLabel">
+                    <a href="https://www.newenglandwalkers.com/" target="_blank"
+                      >Walkers</a
+                    >
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    He estado trabajando con Zeb en varios otros proyectos en el
+                    último año. Cuando se contactó conmigo para hablar sobre un
+                    proyecto que se desarrollaba en torno al diseño de una
+                    tienda web personalizada para su padre, inmediatamente me
+                    interesé e inspiré. Esto resultó ser un proyecto realmente
+                    inspirador y divertido en el que trabajar en conjunto, lo
+                    que dio como resultado un sitio web de diseño personalizado
+                    y muy creativo con una tienda en línea.
+                  </p>
+                  <img
+                    src="img/work-layout-2.jpg"
+                    alt="Walkers"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL 3 -->
+          <div
+            class="modal fade"
+            id="cliente-3"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title fs-5" id="exampleModalLabel">
+                    <a href="https://www.heytextile.com/" target="_blank"
+                      >Hey Textile</a
+                    >
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    Lori es dueña de su negocio junto con su esposo. Resultan
+                    ser una de esas empresas con las que me encanta trabajar. Me
+                    dan mucha libertad en mi proceso de diseño creativo, pero
+                    aún tienen muchas de sus propias ideas que quieren combinar.
+                    Este proyecto resultó ser un proyecto super divertido para
+                    trabajar juntos. ¡Ambos estamos imaginando una buena
+                    relación de negocios para trabajar nuevamente en proyectos
+                    futuros!
+                  </p>
+                  <img
+                    src="img/work-layout-3.jpg"
+                    alt="Hey Textile"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL 4 -->
+            <div class="modal fade" id="cliente-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel"><a href="https://www.basisnetworks.com.au/" target="_blank">Basis Networks</a></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Tom me contactó con la idea de hacer un rediseño completo de su sitio web (obsoleto) y también hacer
+                      que responda.
+                      Estaba buscando un sitio web de aplicación de estilo moderno y me dio mucha libertad para crear un
+                      diseño que tenía en
+                      mente. El resultado es un sitio web de aspecto moderno del que ambos estamos orgullosos.
+                    </p>
+                    <img src="img/work-layout-4.jpg" alt="Basis Networks" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- MODAL 5 -->
+          <div class="modal fade" id="cliente-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel"><a href="https://www.swingvy.com/" target="_blank">Swingvy</a></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      He estado trabajando con el equipo de Shale Capital Group desde 2014. Hemos trabajado juntos en varios
+                      proyectos de
+                      sitios web de (re) diseño y (re) marca. Estoy muy contento de que nuestra relación continua demuestre
+                      que puedo ofrecer
+                      la calidad que requieren en sus proyectos.
+                    </p>
+                    <img src="img/work-layout-5.jpg" alt="Swingvy" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- MODAL 6 -->
+          <div class="modal fade" id="cliente-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel"><a href="https://www.dekalash.com/" target="_blank">Lash Spa Studio</a></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      He estado trabajando con el equipo de Lash Spa Studio desde 2014. Hemos trabajado juntos en varios
+                      proyectos de
+                      sitios web de (re) diseño y (re) marca. Estoy muy contento de que nuestra relación continua demuestre
+                      que puedo ofrecer
+                      la calidad que requieren en sus proyectos.
+                    </p>
+                    <img src="img/work-layout-6.jpg" alt="Lash Spa Studio" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MODAL 7 -->
+            <div class="modal fade" id="cliente-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel"><a href="https://www.bambuu.nl/" target="_blank">Bambuu</a></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      He estado trabajando con Bambuu BV como diseñador gráfico y diseñador web de forma regular desde 2014.
+                      Bambuu ha
+                      demostrado ser un negocio de inicio muy exitoso en los Países Bajos y estoy muy contento de poder
+                      ofrecer la calidad de
+                      trabajo que ofrecen. Requieren en sus proyectos.
+                    </p>
+                    <img src="img/work-layout-7.jpg" alt="Bambuu" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MODAL 8 -->
+             <div class="modal fade" id="cliente-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel"><a href="https://webflow.com/" target="_blank">Webflow</a></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Fue justo al comienzo de mi negocio (principios de 2014), cuando el equipo de Webflow me contactó
+                      después de haber visto
+                      algunos de mis sitios web basados en Webflow. Estaban lanzando un Template Marketplace en ese entonces
+                      y me pidieron
+                      que fuera parte de él. ¡He estado creando plantillas de flujo web html5 modernas y receptivas para ellos
+                      desde entonces!
+                    </p>
+                    <img src="img/work-layout-8.jpg" alt="Webflow" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white p-3">
+      <div class="container">
+        <nav class="d-flex justify-content-evenly">
+
+          <a target="_blank" href="https://twitter.com">
+            <i class="bi bi-twitter fs-4"> </i>
+          </a>
+          <a target="_blank" href="https://github.com">
+            <i class="bi bi-github fs-4"> </i>
+          </a>
+
+          <a target="_blank" href="https://instagram.com">
+            <i class="bi bi-instagram fs-4"> </i>
+          </a>
+
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=3413456789"
+          >
+            <i class="bi bi-whatsapp fs-4"> </i>
+          </a>
+        </nav>
+        <small class="d-flex justify-content-center pt-2">
+          &copy; 2023 @IgnaDeveloper. Hecho con fines educativos.
+        </small>
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+/* CUSTOM PROPERTIES */
+
+/* RESET STYLES */
+body {
+  font-family: "Inconsolata", monospace;
+  overflow-x: hidden;
+}
+.carousel-caption {
+  z-index: 1;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: cyan;
+}
+/* BOOTSTRAP STYLES */
+
+/* MY STYLES */
+.bg-hero-image {
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dropdown-item:hover {
+  font-weight: bold;
+}
+.nav-item:hover {
+  border-radius: 5%;
+  transition: all 0.2s ease-in-out;
+  padding-left: 0.5rem;
+}
+.nav-link:hover {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
